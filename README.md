@@ -1,11 +1,22 @@
-# awz.cookiessett
+# AWZ: UTM метки (письма, заказы) [awz.utm]
 
-### [Установка модуля](https://github.com/zahalski/cookiessett/tree/main/docs/install.md)
-
+### [Установка модуля](https://github.com/zahalski/awz.utm/tree/main/docs/install.md)
 
 <!-- desc-start -->
 
-Модуль содержит Api и компонент для запроса разрешения на использование cookies для CMS 1c-Битрикс.
+Модуль предоставляет возможность отслеживать рекламные каналы, через которые клиент оставил заявку или оформил заказ, не только со страницы входа, но и с любой другой страницы, даже при повторном входе спустя длительное время.
+
+#### Модуль запоминает:
+- utm_source (Источник кампании),
+- utm_medium (Тип трафика),
+- utm_campaign (Название кампании),
+- utm_content (Идентификатор объявления),
+- utm_term (Ключевое слово).
+#### И сохраняет UTM-метки в:
+- Базу данных (срок действия записей, опциональный);
+- Cookies (файлы на устройстве пользователя);
+- Заказ (при создании заказа, на обработчике, опционально);
+- При отправке писем (на обработчике, опционально).
 
 **Поддерживаемые редакции CMS Битрикс:**<br>
 «Старт», «Стандарт», «Малый бизнес», «Бизнес», «Корпоративный портал», «Энтерпрайз», «Интернет-магазин + CRM»
@@ -16,25 +27,28 @@
 
 ## Документация для разработчиков
 
-```php
-use Awz\CookiesSett\App as CookieApp;
-if(\Bitrix\Main\Loader::includeModule('awz.cookiessett')){
+### Awz\Utm\App 
 
-	$app = CookieApp::getInstance();
-	if($app->check(CookieApp::USER_TECH)){
-		//разрешены функциональные
-	}
-	if($app->check(CookieApp::MARKET_EXT)){
-		//разрешены маркетинговые
-	}
-	if($app->check(CookieApp::USER_TECH & CookieApp::MARKET_EXT)){
-		//разрешены маркетинговые и функциональные
-	}
-	if($app->check(CookieApp::USER_TECH | CookieApp::MARKET_EXT)){
-		//разрешены маркетинговые или функциональные
-	}
-	if($app->isEmpty()){
-		//пользователь еще не выбрал согласие или отмену
+| Метод         | Возвращаемое значение | Описание                            |
+|---------------|-----------------------|-------------------------------------|
+| getSource()   | `string`              | Возвращает Источник кампании        |
+| getMedium()   | `string`              | Возвращает Тип трафика              |
+| getTerm()     | `string`              | Возвращает Название кампании        |
+| getCampaign() | `string`              | Возвращает Идентификатор объявления |
+| getContent()  | `string`              | Возвращает Ключевое слово           |
+| isEmpty()     | `bool`                | если true, то UTM меток нет         |
+| getHtml()     | `string`              | получение html значений меток       |
+
+
+```php
+use Awz\Utm\App as UtmApp;
+if(\Bitrix\Main\Loader::includeModule('awz.utm')){
+
+	$utm = UtmApp::getInstance();
+	if($utm->isEmpty()){
+		//нет меток
+	}else{
+	    echo $utm->getSource();
 	}
 
 }
@@ -45,7 +59,7 @@ if(\Bitrix\Main\Loader::includeModule('awz.cookiessett')){
 <!-- cl-start -->
 ## История версий
 
-https://github.com/zahalski/cookiessett/blob/master/CHANGELOG.md
+https://github.com/zahalski/awz.utm/blob/master/CHANGELOG.md
 
 <!-- cl-end -->
 
