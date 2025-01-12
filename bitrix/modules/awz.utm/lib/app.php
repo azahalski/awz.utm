@@ -247,9 +247,7 @@ class App {
         return $this->set('Content', $value);
     }
 
-    public function save($new){
-        $context = Application::getInstance()->getContext();
-        $session = Application::getInstance()->getSession();
+    public function save($new=false){
         $server = Application::getInstance()->getContext()->getServer();
         if($new){
             if(!$this->getParentId()){
@@ -262,42 +260,54 @@ class App {
             $data['IP_ADDR'] = $server->getRemoteAddr();
             $data['SITE_ID'] = $this->siteId;
             $data['U_AGENT'] = $server->getUserAgent();
+            $data['REFERER'] = $server->get('HTTP_REFERER');
             $data['PARENT_ID'] = $this->getParentId();
             $data['DATE_ADD'] = DateTime::createFromTimestamp(time());
             unset($data['ID']);
             $r = UtmTable::add($data);
             if($newId = $r->getId()){
                 $this->setId($newId);
-                $signer = new Security\Sign\Signer();
-                $signValue = $signer->sign(base64_encode(serialize(array(
-                    'id'=>$newId,
-                    'site_id'=>$this->siteId,
-                    'rnd'=>Security\Random::getString(6)
-                ))));
-                $session->set(self::SESSION_KEY.'_'.$this->siteId, $signValue);
-                $cookiesAdd = false;
-                $cookieType = Option::get(Agents::MODULE, 'COOKIES', '0', $this->siteId);
-                if($cookieType==1){
-                    $cookiesAdd = true;
-                }elseif($cookieType>1){
-                    if(Loader::includeModule('awz.cookiessett')){
-                        $cookieApp = \Awz\Cookiessett\App::getInstance();
-                        if($cookieType==2 && $cookieApp->check(\Awz\Cookiessett\App::USER_TECH))
-                            $cookiesAdd = true;
-                        if($cookieType==3 && $cookieApp->check(\Awz\Cookiessett\App::MARKET_TECH))
-                            $cookiesAdd = true;
-                        if($cookieType==4 && $cookieApp->check(\Awz\Cookiessett\App::MARKET_EXT))
-                            $cookiesAdd = true;
-                    }else{
-                        $cookiesAdd = true;
-                    }
-                }
-                if($cookiesAdd){
-                    $cookie = new Cookie(self::SESSION_KEY.'_'.$this->siteId, $signValue);
-                    $cookie->setPath('/');
-                    $context->getResponse()->addCookie($cookie);
-                }
             }
+            $this->saveCookies();
+        }
+    }
+
+    public function saveCookies(){
+
+        $utmId = $this->getId();
+        if(!$utmId) return;
+
+        $context = Application::getInstance()->getContext();
+        $session = Application::getInstance()->getSession();
+
+        $signer = new Security\Sign\Signer();
+        $signValue = $signer->sign(base64_encode(serialize(array(
+            'id'=>$utmId,
+            'site_id'=>$this->siteId,
+            'rnd'=>Security\Random::getString(6)
+        ))));
+        $session->set(self::SESSION_KEY.'_'.$this->siteId, $signValue);
+        $cookiesAdd = false;
+        $cookieType = Option::get(Agents::MODULE, 'COOKIES', '0', $this->siteId);
+        if($cookieType==1){
+            $cookiesAdd = true;
+        }elseif($cookieType>1){
+            if(Loader::includeModule('awz.cookiessett')){
+                $cookieApp = \Awz\Cookiessett\App::getInstance();
+                if($cookieType==2 && $cookieApp->check(\Awz\Cookiessett\App::USER_TECH))
+                    $cookiesAdd = true;
+                if($cookieType==3 && $cookieApp->check(\Awz\Cookiessett\App::MARKET_TECH))
+                    $cookiesAdd = true;
+                if($cookieType==4 && $cookieApp->check(\Awz\Cookiessett\App::MARKET_EXT))
+                    $cookiesAdd = true;
+            }else{
+                $cookiesAdd = true;
+            }
+        }
+        if($cookiesAdd){
+            $cookie = new Cookie(self::SESSION_KEY.'_'.$this->siteId, $signValue);
+            $cookie->setPath('/');
+            $context->getResponse()->addCookie($cookie);
         }
     }
 

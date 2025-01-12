@@ -204,6 +204,21 @@ class awz_utm extends CModule
 
     function checkOldInstallTables()
     {
+        $connection = Application::getConnection();
+        $checkColumn = false;
+        $checkTable = false;
+        $recordsRes = $connection->query("select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME='b_awz_utm'");
+        while($dt = $recordsRes->fetch()){
+            $checkTable = true;
+            if($dt['COLUMN_NAME'] == 'REFERER'){
+                $checkColumn = true;
+                break;
+            }
+        }
+        if($checkTable && !$checkColumn){
+            $sql = 'ALTER TABLE `b_awz_utm` ADD `REFERER` varchar(255) DEFAULT NULL';
+            $connection->queryExecute($sql);
+        }
         return true;
     }
 
