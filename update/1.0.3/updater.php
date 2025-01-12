@@ -7,7 +7,7 @@ $checkTable = false;
 $recordsRes = $connection->query("select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME='b_awz_utm'");
 while($dt = $recordsRes->fetch()){
 	$checkTable = true;
-	if($dt['COLUMN_NAME'] == 'LAST_STATUS'){
+	if($dt['COLUMN_NAME'] == 'REFERER'){
 		$checkColumn = true;
 		break;
 	}
