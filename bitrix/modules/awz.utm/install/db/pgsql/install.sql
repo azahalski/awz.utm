@@ -4,6 +4,7 @@ CREATE TABLE b_awz_utm (
     SITE_ID varchar(2) DEFAULT NULL,
     IP_ADDR varchar(45) DEFAULT NULL,
     U_AGENT varchar(255) DEFAULT NULL,
+    PAGE varchar(255) DEFAULT NULL,
     REFERER varchar(255) DEFAULT NULL,
     "SOURCE" varchar(25) DEFAULT NULL,
     MEDIUM varchar(25) DEFAULT NULL,

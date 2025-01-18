@@ -206,17 +206,24 @@ class awz_utm extends CModule
     {
         $connection = Application::getConnection();
         $checkColumn = false;
+        $checkColumn2 = false;
         $checkTable = false;
         $recordsRes = $connection->query("select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME='b_awz_utm'");
         while($dt = $recordsRes->fetch()){
             $checkTable = true;
             if($dt['COLUMN_NAME'] == 'REFERER'){
                 $checkColumn = true;
-                break;
+            }
+            if($dt['COLUMN_NAME'] == 'PAGE'){
+                $checkColumn2 = true;
             }
         }
         if($checkTable && !$checkColumn){
             $sql = 'ALTER TABLE `b_awz_utm` ADD `REFERER` varchar(255) DEFAULT NULL';
+            $connection->queryExecute($sql);
+        }
+        if($checkTable && !$checkColumn2){
+            $sql = 'ALTER TABLE `b_awz_utm` ADD `PAGE` varchar(255) DEFAULT NULL';
             $connection->queryExecute($sql);
         }
         return true;

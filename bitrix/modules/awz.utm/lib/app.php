@@ -260,6 +260,9 @@ class App {
             $data['IP_ADDR'] = $server->getRemoteAddr();
             $data['SITE_ID'] = $this->siteId;
             $data['U_AGENT'] = $server->getUserAgent();
+            $context = Application::getInstance()->getContext();
+            $uri = new \Bitrix\Main\Web\Uri($context->getRequest()->getRequestUri());
+            $data['PAGE'] = $uri->getPath();
             $data['REFERER'] = $server->get('HTTP_REFERER');
             $data['PARENT_ID'] = $this->getParentId();
             $data['DATE_ADD'] = DateTime::createFromTimestamp(time());

@@ -102,6 +102,7 @@ class UtmList extends IList implements IParams {
                 'SITE_ID'=>[],
                 'IP_ADDR'=>[],
                 'U_AGENT'=>[],
+                'PAGE'=>[],
                 'REFERER'=>[],
                 'SOURCE'=>[],
                 'MEDIUM'=>[],
