@@ -30,7 +30,7 @@ class UtmTable extends ORM\Data\DataManager {
                 ->configureTitle(Loc::getMessage('AWZ_UTM_UTM_ENTITY_IP_ADDR')),
             (new ORM\Fields\StringField('U_AGENT'))
                 ->configureTitle(Loc::getMessage('AWZ_UTM_UTM_ENTITY_U_AGENT')),
-            (new ORM\Fields\StringField('AWZ_UTM_UTM_ENTITY_PAGE'))
+            (new ORM\Fields\StringField('PAGE'))
                 ->configureTitle(Loc::getMessage('AWZ_UTM_UTM_ENTITY_PAGE')),
             (new ORM\Fields\StringField('REFERER'))
                 ->configureTitle(Loc::getMessage('AWZ_UTM_UTM_ENTITY_REFERER')),
