@@ -28,7 +28,7 @@ if(!Loader::includeModule('awz.admin')){
     <a target="_blank" href="https://marketplace.1c-bitrix.ru/solutions/awz.admin/">
         <?=Loc::getMessage('AWZ_BXORM_ADMIN_CHECK_ERR3')?>
     </a> |
-    <a target="_blank" href="https://github.com/zahalski/awz.admin">
+    <a target="_blank" href="https://github.com/azahalski/awz.admin">
         GitHub
     </a>
     <?php

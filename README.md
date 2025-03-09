@@ -1,6 +1,6 @@
 # AWZ: UTM метки (письма, заказы) [awz.utm]
 
-### [Установка модуля](https://github.com/zahalski/awz.utm/tree/main/docs/install.md)
+### [Установка модуля](https://github.com/azahalski/awz.utm/tree/main/docs/install.md)
 
 <!-- desc-start -->
 
@@ -60,7 +60,7 @@ if(\Bitrix\Main\Loader::includeModule('awz.utm')){
 <!-- cl-start -->
 ## История версий
 
-https://github.com/zahalski/awz.utm/blob/master/CHANGELOG.md
+https://github.com/azahalski/awz.utm/blob/master/CHANGELOG.md
 
 <!-- cl-end -->
 
