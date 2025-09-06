@@ -11,8 +11,10 @@ $MESS['AWZ_UTM_OPT_COOKIES2_TITLE_DESC'] = 'Для вывода меток в п
 <br>#AWZ_UTM_MEDIUM# - Тип трафика;
 <br>#AWZ_UTM_TERM# - Ключевое слово;
 <br>#AWZ_UTM_CAMPAIGN# - Название кампании;
-<br>#AWZ_UTM_CONTENT# - Идентификатор объявления.';
-$MESS['AWZ_UTM_OPT_COOKIES2_TITLE_DESC2'] = 'Опции проверки соглаcия на cokies работают только при установленном модуле <a target="_blank" href="https://marketplace.1c-bitrix.ru/solutions/awz.cookiessett/">awz.cookiessett</a>';
+<br>#AWZ_UTM_CONTENT# - Идентификатор объявления.
+<br><br>Протестируйте метку перейдя по <a href="/?utm_source=zahalski&utm_medium=cpc&utm_campaign=test&utm_content=awz.utm&utm_term=%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F+%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B8+%D0%BC%D0%B5%D1%82%D0%BE%D0%BA" target="_blank">ссылке 1</a>, а после перехода 
+проверьте список меток по <a target="_blank" href="/bitrix/admin/awz_utm_utm_list.php?lang=ru">ссылке 2</a>.';
+$MESS['AWZ_UTM_OPT_COOKIES2_TITLE_DESC2'] = 'Опции проверки согласия на cookies работают только при установленном модуле <a target="_blank" href="https://marketplace.1c-bitrix.ru/solutions/awz.cookiessett/">awz.cookiessett</a>';
 $MESS['AWZ_UTM_OPT_COOKIES_TITLE_SEL1'] = 'Не записывать';
 $MESS['AWZ_UTM_OPT_COOKIES_TITLE_SEL2'] = 'Записывать всегда';
 $MESS['AWZ_UTM_OPT_COOKIES_TITLE_SEL3'] = 'При cогласии на технические cookies';
