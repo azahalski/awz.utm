@@ -3,15 +3,15 @@
 [center]
 [TABLE][TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][TH][b]UTM-метки рекламных каналов фиксируются на любой странице сайта и подставляются в заказы и письма.[/b][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][/TR][TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][/TR][TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][TH][color=#8b93b3]Не только со страницы входа: цепочка визитов клиента хранится в базе - источник виден даже при повторном заходе спустя время.[/color][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][/TR][/TABLE][/center]
 [center]
-[TABLE][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/center]
+[TABLE][TR][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/center]
 
 [center][b]Запись в заказ[/b][/center][color=#8b93b3]метки подставляются в свойства нового заказа - по каждому сайту свои настройки.[/color][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png[/IMG][/center]
 
-[center][b]Макросы в письма[/b][/center][color=#8b93b3]#AWZ_UTM# и отдельные значения подставляются в шаблоны почтовых событий.[/color][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/7vx5zy9s1h.png[/IMG][/center]
+[center][b]Макросы в письма[/b][/center][color=#8b93b3]#AWZ_UTM# и отдельные значения подставляются в шаблоны почтовых событий.[/color][/TH][/TR][TR][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][/TR][TR][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/7vx5zy9s1h.png[/IMG][/center]
 
 [center][b]Cookies и сессия[/b][/center][color=#8b93b3]подписанные cookies по режимам согласий хранят источник при повторных заходах.[/color][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/g694x0uool.png[/IMG][/center]
 
-[center][b]Статистика в админке[/b][/center][color=#8b93b3]список визитов с фильтром по любому полю, правкой и удалением записей.[/color][/TH][/TABLE]
+[center][b]Статистика в админке[/b][/center][color=#8b93b3]список визитов с фильтром по любому полю, правкой и удалением записей.[/color][/TH][/TR][/TABLE]
 [/center]
 
 [center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/39j7fglt7q.png[/IMG][/center]
@@ -21,12 +21,11 @@
 [IMG WIDTH=225 HEIGHT=9]https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png[/IMG][/center]
 
 [TABLE]
-[TR][TD][IMG WIDTH=135 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG]
-[b]utm_source[/b][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Источник кампании.[/TD][/TR]
-[TR][TD][b]utm_medium[/b][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Тип трафика.[/TD][/TR]
-[TR][TD][b]utm_campaign[/b][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Название кампании.[/TD][/TR]
-[TR][TD][b]utm_content[/b][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Идентификатор объявления.[/TD][/TR]
-[TR][TD][b]utm_term[/b][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Ключевое слово.[/TD][/TR]
+[TR][TH][IMG WIDTH=135 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH][b]utm_source[/b][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH]Источник кампании.[/TH][/TR]
+[TR][TH][IMG WIDTH=135 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH][b]utm_medium[/b][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH]Тип трафика.[/TH][/TR]
+[TR][TH][IMG WIDTH=135 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH][b]utm_campaign[/b][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH]Название кампании.[/TH][/TR]
+[TR][TH][IMG WIDTH=135 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH][b]utm_content[/b][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH]Идентификатор объявления.[/TH][/TR]
+[TR][TH][IMG WIDTH=135 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH][b]utm_term[/b][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH]Ключевое слово.[/TH][/TR]
 [/TABLE]
 
 [center][color=#8b93b3]Вместе с метками сохраняется контекст визита: сайт, IP-адрес, UserAgent, страница входа, Referer и дата.[/color][/center]
@@ -36,11 +35,11 @@
 [IMG WIDTH=225 HEIGHT=9]https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png[/IMG][/center]
 [center]
 [TABLE]
-[TR][TD][IMG WIDTH=135 HEIGHT=1]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][IMG WIDTH=135 HEIGHT=1]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][/TR]
-[TR][TD][center][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/qbf5mui8k8.png[/IMG][/center][/TD][TD][center][b]Заказы без источника[/b][/center][/TD][/TR]
-[TR][TD][center][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/tlqakivqak.png[/IMG][/center][/TD][TD][center][b]Разбор ссылок руками[/b][/center][/TD][/TR]
-[TR][TD][center][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/dj2pieks5z.png[/IMG][/center][/TD][TD][center][b]Слепые уведомления[/b][/center][/TD][/TR]
-[TR][TD][center][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/koi97cancn.png[/IMG][/center][/TD][TD][center][b]Потеря цепочки визитов[/b][/center][/TD][/TR]
+[TR][TH][IMG WIDTH=135 HEIGHT=1]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][TH][IMG WIDTH=135 HEIGHT=1]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][/TR]
+[TR][TH][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/qbf5mui8k8.png[/IMG][/TH][TH][b]Заказы без источника[/b][/TH][/TR]
+[TR][TH][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/tlqakivqak.png[/IMG][/TH][TH][b]Разбор ссылок руками[/b][/TH][/TR]
+[TR][TH][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/dj2pieks5z.png[/IMG][/TH][TH][b]Слепые уведомления[/b][/TH][/TR]
+[TR][TH][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/koi97cancn.png[/IMG][/TH][TH][b]Потеря цепочки визитов[/b][/TH][/TR]
 [/TABLE]
 [/center]
 
@@ -51,9 +50,9 @@
 [center][size=13pt][b]1. Фиксация меток[/b][/size][/center]
 
 [TABLE]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/h8g2cam7lj.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Перехват меток на любой странице сайта, не только со страницы входа[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/h8g2cam7lj.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Изменение меток - новая запись, связанная с первой меткой цепочки визитов[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/h8g2cam7lj.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Тестовая ссылка с метками в настройках - проверка записи за минуту[/TD][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/h8g2cam7lj.png[/IMG][/TH][TH]Перехват меток на любой странице сайта, не только со страницы входа[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/h8g2cam7lj.png[/IMG][/TH][TH]Изменение меток - новая запись, связанная с первой меткой цепочки визитов[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/h8g2cam7lj.png[/IMG][/TH][TH]Тестовая ссылка с метками в настройках - проверка записи за минуту[/TH][/TR]
 [/TABLE]
 
 [center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/xk6jvdvrol.png[/IMG][/center]
@@ -61,10 +60,10 @@
 [center][size=13pt][b]2. Хранение и срок[/b][/size][/center]
 
 [TABLE]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Записи в базе с контекстом визита и привязкой к первой метке цепочки[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Подписанные cookies - идентификатор метки восстанавливается при повторном заходе[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Режимы записи cookies по согласиям пользователя (модуль awz.cookiessett)[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Агент удаляет записи старше заданного срока, 0 - бессрочно[/TD][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TH][TH]Записи в базе с контекстом визита и привязкой к первой метке цепочки[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TH][TH]Подписанные cookies - идентификатор метки восстанавливается при повторном заходе[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TH][TH]Режимы записи cookies по согласиям пользователя (модуль awz.cookiessett)[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png[/IMG][/TH][TH]Агент удаляет записи старше заданного срока, 0 - бессрочно[/TH][/TR]
 [/TABLE]
 
 [center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/h6gi7vt58n.png[/IMG][/center]
@@ -72,9 +71,9 @@
 [center][size=13pt][b]3. Запись в заказы[/b][/size][/center]
 
 [TABLE]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Метки подставляются при создании нового заказа[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Все метки одной строкой в первое доступное выбранное свойство[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Отдельные свойства для source, medium, term, campaign и content[/TD][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/TH][TH]Метки подставляются при создании нового заказа[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/TH][TH]Все метки одной строкой в первое доступное выбранное свойство[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png[/IMG][/TH][TH]Отдельные свойства для source, medium, term, campaign и content[/TH][/TR]
 [/TABLE]
 
 [center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/q9sdrpfgh8.png[/IMG][/center]
@@ -82,9 +81,10 @@
 [center][size=13pt][b]4. Макросы в письма[/b][/size][/center]
 
 [TABLE]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]#AWZ_UTM# - все метки одной отформатированной строкой[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Отдельные макросы: #AWZ_UTM_SOURCE#, #AWZ_UTM_MEDIUM#, #AWZ_UTM_TERM#, #AWZ_UTM_CAMPAIGN#, #AWZ_UTM_CONTENT#[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Подстановка во все почтовые события без правки кода[/TD][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png[/IMG][/TH][TH]#AWZ_UTM# - все метки одной отформатированной строкой[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png[/IMG][/TH][TH]Отдельные макросы: #AWZ_UTM_SOURCE#, #AWZ_UTM_MEDIUM#,
+#AWZ_UTM_TERM#, #AWZ_UTM_CAMPAIGN#, #AWZ_UTM_CONTENT#[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png[/IMG][/TH][TH]Подстановка во все почтовые события без правки кода[/TH][/TR]
 [/TABLE]
 
 [center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/w1pmbangey.png[/IMG][/center]
@@ -92,9 +92,9 @@
 [center][size=13pt][b]5. Статистика в админке[/b][/size][/center]
 
 [TABLE]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/g694x0uool.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Страница «Статистика UTM меток» на движке модуля awz.admin[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/g694x0uool.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Фильтр по любому полю: источник, кампания, страница входа, Referer, дата[/TD][/TR]
-[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/g694x0uool.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Контекстное редактирование значений и удаление записей[/TD][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/g694x0uool.png[/IMG][/TH][TH]Страница «Статистика UTM меток» на движке модуля awz.admin[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/g694x0uool.png[/IMG][/TH][TH]Фильтр по любому полю: источник, кампания, страница входа, Referer, дата[/TH][/TR]
+[TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/g694x0uool.png[/IMG][/TH][TH]Контекстное редактирование значений и удаление записей[/TH][/TR]
 [/TABLE]
 
 [center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/xa5zlq8rlf.png[/IMG][/center]
