@@ -1,0 +1,162 @@
+{
+ "utm-art-catch": {
+  "bytes": 54380,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-art-catch.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "ebbcf91f93d99ebe4d55d3a91e602c970c130bfa3baddc55b617a2eb2858c094",
+  "source_bytes": 54380,
+  "url": "https://zahalski.dev/upload/awz.load.ai/xk6jvdvrol.png",
+  "w": 1280
+ },
+ "utm-art-hero": {
+  "bytes": 59755,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-art-hero.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "f6477b52df27b54b82013d299719e5c321e606142430c23286f0e41670d7dcbe",
+  "source_bytes": 59755,
+  "url": "https://zahalski.dev/upload/awz.load.ai/39j7fglt7q.png",
+  "w": 1280
+ },
+ "utm-art-mail": {
+  "bytes": 49360,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-art-mail.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "e16bf46811f52bc2e93dacfed364ec580aae723a258972849221c60f75179b8d",
+  "source_bytes": 49360,
+  "url": "https://zahalski.dev/upload/awz.load.ai/w1pmbangey.png",
+  "w": 1280
+ },
+ "utm-art-order": {
+  "bytes": 54427,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-art-order.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "5f1985fcffe28a207fcbd8d0436a6dd9cc8cb721a12edd2a6eae3138e2113f29",
+  "source_bytes": 54427,
+  "url": "https://zahalski.dev/upload/awz.load.ai/q9sdrpfgh8.png",
+  "w": 1280
+ },
+ "utm-art-stat": {
+  "bytes": 36935,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-art-stat.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "518aafa51942bd901399df692899f3f6e0c977cf77fa1f5ea77a71541701e2ca",
+  "source_bytes": 36935,
+  "url": "https://zahalski.dev/upload/awz.load.ai/xa5zlq8rlf.png",
+  "w": 1280
+ },
+ "utm-art-store": {
+  "bytes": 36432,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-art-store.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "0c57d1c02e107ac9909ed467331fe50bc65fe115e7eae53e34b5be059f4ccdd4",
+  "source_bytes": 36432,
+  "url": "https://zahalski.dev/upload/awz.load.ai/h6gi7vt58n.png",
+  "w": 1280
+ },
+ "utm-ico-catch": {
+  "bytes": 20360,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-catch.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "fd89346d078f281372a479c21c12e5c6773d2c23a5cc734d2610ddda97a22364",
+  "source_bytes": 20360,
+  "url": "https://zahalski.dev/upload/awz.load.ai/h8g2cam7lj.png",
+  "w": 512
+ },
+ "utm-ico-cookie": {
+  "bytes": 22333,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-cookie.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "61d6884dd2fd73b254fd141127e63b6b55444e79986513da8f84c795416ba864",
+  "source_bytes": 22333,
+  "url": "https://zahalski.dev/upload/awz.load.ai/7vx5zy9s1h.png",
+  "w": 512
+ },
+ "utm-ico-mail": {
+  "bytes": 20479,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-mail.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "edbc60a6e6b22e33e803fbe9db639c6d84efbbc5bfe66366dec5608220d4f2f7",
+  "source_bytes": 20479,
+  "url": "https://zahalski.dev/upload/awz.load.ai/l1knl9p2va.png",
+  "w": 512
+ },
+ "utm-ico-order": {
+  "bytes": 24792,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-order.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "c2dad46dfbb3656fd2d849270e55c2e0c1d9e0b64dfb00df4ea9fa8f657d3133",
+  "source_bytes": 24792,
+  "url": "https://zahalski.dev/upload/awz.load.ai/nzb76tecdw.png",
+  "w": 512
+ },
+ "utm-ico-pain-blind": {
+  "bytes": 17685,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-pain-blind.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "3a2e6820c2b674b5bf0fbe74574f9605c516a8785db83a107eb45c1dd5d44e01",
+  "source_bytes": 17685,
+  "url": "https://zahalski.dev/upload/awz.load.ai/dj2pieks5z.png",
+  "w": 512
+ },
+ "utm-ico-pain-hands": {
+  "bytes": 24666,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-pain-hands.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "24e3042493e19304452c0dbe6a290eb81d0f048b589eff1f40751d42b73bc5c5",
+  "source_bytes": 24666,
+  "url": "https://zahalski.dev/upload/awz.load.ai/tlqakivqak.png",
+  "w": 512
+ },
+ "utm-ico-pain-lost": {
+  "bytes": 13011,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-pain-lost.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "1775ac6d83e1f1350dc9f2f9a0197d82fa499170860b6bc39a1124afab4148de",
+  "source_bytes": 13011,
+  "url": "https://zahalski.dev/upload/awz.load.ai/koi97cancn.png",
+  "w": 512
+ },
+ "utm-ico-pain-unknown": {
+  "bytes": 17641,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-pain-unknown.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "8918c36b09f9195846e21652226e8bcf7a6f39e00311a683cc2da0c8fc38f84f",
+  "source_bytes": 17641,
+  "url": "https://zahalski.dev/upload/awz.load.ai/qbf5mui8k8.png",
+  "w": 512
+ },
+ "utm-ico-stat": {
+  "bytes": 12427,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-stat.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "9c3369c144a582d294dc8848990a7983370995ddf7edd4f2745141c1a868e9b2",
+  "source_bytes": 12427,
+  "url": "https://zahalski.dev/upload/awz.load.ai/g694x0uool.png",
+  "w": 512
+ },
+ "utm-ico-store": {
+  "bytes": 28617,
+  "file": "/home/andrew/desc_out/_ai/desc-art--utm-ico-store.png",
+  "h": 512,
+  "mime": "image/png",
+  "sha256": "c90fcb6d556158e70f61622226ba24223e3cc884ed1a963b688690edc3f04bc7",
+  "source_bytes": 28617,
+  "url": "https://zahalski.dev/upload/awz.load.ai/jvcyvg0wvw.png",
+  "w": 512
+ }
+}
