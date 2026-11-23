@@ -36,7 +36,6 @@
 [IMG WIDTH=225 HEIGHT=9]https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png[/IMG][/center]
 [center]
 [TABLE]
-[TR][TD][IMG WIDTH=135 HEIGHT=1]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][IMG WIDTH=135 HEIGHT=1]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][/TR]
 [TR][TD][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/qbf5mui8k8.png[/IMG][/TD][TD][b]Заказы без источника[/b][/TD][/TR]
 [TR][TD][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/tlqakivqak.png[/IMG][/TD][TD][b]Разбор ссылок руками[/b][/TD][/TR]
 [TR][TD][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/dj2pieks5z.png[/IMG][/TD][TD][b]Слепые уведомления[/b][/TD][/TR]
